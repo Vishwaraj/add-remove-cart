@@ -1,0 +1,75 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 4rem;
+  padding-right: 6rem;
+  border-bottom: 1px solid grey;
+  margin-bottom:0;
+}
+
+.header > h3 {
+  border: 1px solid black;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  border-radius: 1rem;
+}
+
+.Banner {
+  background-color: grey;
+  text-align: center;
+  height: 30vh;
+}
+
+.Banner > h1 {
+  margin-top: 0;
+  padding-top: 3rem;
+}
+
+.Banner > h3 {
+  font-weight: normal;
+}
+
+.product-list {
+  margin: 2rem 4rem 2rem 4rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: space-around;
+}
+
+.product {
+  text-align: center;
+  border: 1px solid grey;
+  width: 15vw;
+  padding-bottom: 1rem;
+  border-radius: 1rem;
+}
+
+.product > img {
+  width: 100%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  height: 25vh;
+  object-fit: cover;
+}
+
+.product > h3 {
+  margin-top: 0;
+}
+
+.remove-button {
+  margin-left: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  background-color: skyblue;
+  border: 0;
+  border-radius: 10rem;
+  font-weight: bold;
+}
+
+button:hover{ 
+  background-color: darkcyan;
+}
